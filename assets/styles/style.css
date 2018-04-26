@@ -36,11 +36,22 @@ ul {
 	color: #000102;
 }
 
-.purchase-block{
+
+.purchase-content{
+	display: flex;
+	flex: start;
+}
+
+.choice{
 	width: 205px;
 	min-height: 50px;
 	margin: 0 3px;
-	padding-bottom: 12px;
+	padding: 12px;
 	background-color: #f4f0ef;
 	border: 1px solid #e8e7e5;
+}
+
+.furniture-title{
+	font-size: 13px;
+	color: #000102;
 }
